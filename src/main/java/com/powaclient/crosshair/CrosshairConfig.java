@@ -44,7 +44,7 @@ public class CrosshairConfig
         }
     }
 
-    /** The classic Minecraft plus (Lunar "The Plus"). */
+    /** The classic Minecraft plus. */
     private static boolean[] plus()
     {
         boolean[] g = blank();
@@ -69,7 +69,7 @@ public class CrosshairConfig
         return g;
     }
 
-    /** A small centre dot (Lunar "Dot"). */
+    /** A small centre dot. */
     private static boolean[] dot()
     {
         boolean[] g = blank();
@@ -107,7 +107,7 @@ public class CrosshairConfig
         return g;
     }
 
-    /** Boxed cross (Lunar "Boxed Cross"): the plus inside a square. */
+    /** Boxed cross: the plus inside a square. */
     private static boolean[] boxedCross()
     {
         boolean[] g = plus();

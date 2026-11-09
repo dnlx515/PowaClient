@@ -3,7 +3,7 @@ package com.powaclient.crosshair;
 import java.awt.Color;
 
 /**
- * A crosshair is a 16x16 pixel grid (like Lunar Client's custom crosshairs),
+ * A crosshair is a 16x16 pixel grid,
  * plus a global scale and colour.
  */
 public class CrosshairSettings

@@ -1,19 +1,8 @@
 # PowaClient
 
-A lightweight **client-side Minecraft 1.8.9 client** built on **Forge**, with a modern soft-dark UI, a draggable HUD and a Lunar-style crosshair editor.
+A lightweight **Minecraft 1.8.9 client** built on **Forge**.
 
-> Client-side only. Not affiliated with Mojang or Microsoft. OptiFine is **not** bundled.
-
-## Features
-
-- **Custom main menu** — sunset background, glass panels and rounded buttons.
-- **Mod menu** — categories (HUD / Player / Render / Misc), two-column layout, toggle switches.
-- **Draggable HUD editor** — move every HUD element with the mouse; positions are saved.
-- **HUD modules** — FPS, CPS, Keystrokes, Coordinates, Clock, Direction, Memory, Speed, Server, Day, Potion Effects, Armor.
-- **Player / render modules** — Fullbright, Toggle Sprint, Toggle Sneak, Crosshair, Freelook, Zoom, Menu Blur.
-- **Crosshair editor** — a 16x16 pixel grid you can draw on, presets, colour and scale, saved to disk.
-- **Menu Blur** — real post-processing blur of the world behind any GUI.
-- Module states and HUD positions **persist** between sessions.
+> Not affiliated with Mojang or Microsoft. Just a small project.
 
 ## Keys
 

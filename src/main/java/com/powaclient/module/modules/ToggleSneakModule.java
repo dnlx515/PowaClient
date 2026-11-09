@@ -9,7 +9,7 @@ import net.minecraft.client.settings.KeyBinding;
 import org.lwjgl.input.Keyboard;
 
 /**
- * Tap the sneak key to toggle sneaking (like Lunar's Toggle Sneak).
+ * Tap the sneak key to toggle sneaking.
  */
 public class ToggleSneakModule extends Module
 {

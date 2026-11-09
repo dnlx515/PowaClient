@@ -66,7 +66,7 @@ public class GuiCrosshairEditor extends GuiScreen
         this.buttonList.add(new ModernButton(202, this.px + 14, this.py + 276, 72, 18, "Out " + onOff(this.s.outline)));
         this.buttonList.add(new ModernButton(203, this.px + 92, this.py + 276, 72, 18, "Rbow " + onOff(this.s.rainbow)));
 
-        // Presets (Lunar-style bitmap presets + your saved ones)
+        // Presets
         this.presets = CrosshairConfig.all();
         int cols = 3;
         int cw = 90;
