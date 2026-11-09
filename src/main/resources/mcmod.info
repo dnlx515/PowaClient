@@ -1,0 +1,16 @@
+[
+{
+  "modid": "powaclient",
+  "name": "PowaClient",
+  "description": "PowaClient - a custom 1.8.9 client.",
+  "version": "${version}",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Daniele"],
+  "credits": "Built on Minecraft Forge 1.8.9",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
