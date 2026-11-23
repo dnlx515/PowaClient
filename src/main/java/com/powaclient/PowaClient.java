@@ -19,6 +19,7 @@ import com.powaclient.module.modules.FullbrightModule;
 import com.powaclient.module.modules.KeystrokesModule;
 import com.powaclient.module.modules.MemoryModule;
 import com.powaclient.module.modules.MenuBlurModule;
+import com.powaclient.module.modules.NoHurtCamModule;
 import com.powaclient.module.modules.PingModule;
 import com.powaclient.module.modules.PotionModule;
 import com.powaclient.module.modules.ServerModule;
@@ -48,7 +49,7 @@ import org.lwjgl.input.Keyboard;
 public class PowaClient
 {
     public static final String MODID = "powaclient";
-    public static final String VERSION = "1.0.0";
+    public static final String VERSION = "1.1";
 
     public static ModuleManager moduleManager;
     public static KeyBinding guiKey;
@@ -79,6 +80,7 @@ public class PowaClient
         moduleManager.register(new ToggleSprintModule());
         moduleManager.register(new ToggleSneakModule());
         moduleManager.register(new CrosshairModule());
+        moduleManager.register(new NoHurtCamModule());
         moduleManager.register(new FreelookModule());
         moduleManager.register(new ZoomModule());
         moduleManager.register(new MenuBlurModule());
