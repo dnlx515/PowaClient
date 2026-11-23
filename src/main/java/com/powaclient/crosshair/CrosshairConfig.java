@@ -44,7 +44,7 @@ public class CrosshairConfig
         }
     }
 
-    /** The classic Minecraft plus. */
+    /** The classic Minecraft plus (Lunar "The Plus"). */
     private static boolean[] plus()
     {
         boolean[] g = blank();
@@ -58,18 +58,7 @@ public class CrosshairConfig
         return g;
     }
 
-    private static boolean[] thinCross()
-    {
-        boolean[] g = blank();
-        for (int i = 3; i <= 12; i++)
-        {
-            on(g, 7, i);
-            on(g, i, 7);
-        }
-        return g;
-    }
-
-    /** A small centre dot. */
+    /** A small centre dot (Lunar "Dot"). */
     private static boolean[] dot()
     {
         boolean[] g = blank();
@@ -107,7 +96,6 @@ public class CrosshairConfig
         return g;
     }
 
-    /** Boxed cross: the plus inside a square. */
     private static boolean[] boxedCross()
     {
         boolean[] g = plus();
@@ -125,7 +113,6 @@ public class CrosshairConfig
     {
         List<CrosshairPreset> list = new ArrayList<CrosshairPreset>();
         list.add(new CrosshairPreset("Plus", plus()));
-        list.add(new CrosshairPreset("Thin", thinCross()));
         list.add(new CrosshairPreset("Dot", dot()));
         list.add(new CrosshairPreset("Circle", circle()));
         list.add(new CrosshairPreset("CirDot", circleDot()));
